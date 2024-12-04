@@ -1,3 +1,17 @@
+import importlib
+import matplotlib.pyplot as plt
+import pandas as pd
+import analysis_module as am
+import analysis_visualization as av
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report
+from nltk.sentiment import SentimentIntensityAnalyzer
+from sklearn.ensemble import RandomForestClassifier
+
+
 def load_processed_dataset(file_path):
     """
     Load a processed dataset from a CSV file.
