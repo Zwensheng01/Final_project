@@ -6,7 +6,7 @@ To access the dataset, please download them through the link:
 
 https://drive.google.com/file/d/1ZbsA26obYgk-Deeqw80SgKml3ddO0aBp/view?usp=share_link
 
-And before you get started, make sure all the dataset, python files, and notebook files are in the same dictionary.
+And before you get started, make sure all the dataset, python files, and notebook files are in the same directory.
 
 This project was done on Jupyter Lab 4.2.1, if possible please run the .ipynb files in jupyter lab with recommended version or above.
 
